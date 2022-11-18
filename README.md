@@ -9,15 +9,14 @@ The most minimal Firefox experience possible.
 
 # Installation
 
-### Add the css to your firefox profile.
+### Allow for custom stylesheets:
 
-1. In the searchbar type `about:profiles`. A dialog will be shown to you. Press the **I accept the risk** button.
+1. In the searchbar type `about:config`. A dialog will be shown to you. Press the **I accept the risk** button.
 2. Search for, and enable:
 
     - toolkit.legacyUserProfileCustomizations.stylesheets
 
-
-3. Go to your Firefox profile:
+3. Go to your Firefox profile(Easier, go to: about:profile in urlbar, and click open root folder on the top of the page):
     - If you're on Linux: `$HOME/.mozilla/firefox/XXXXXXX.default-release/`
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
     - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX` 
