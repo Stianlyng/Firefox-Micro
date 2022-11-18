@@ -1,8 +1,5 @@
 # Firefox-Micro
 The most minimal Firefox experience possible. 
-
-# Dark-Minimal-Firefox-Theme
-## A simple minimal theme for Firefox
 ![](https://github.com/Stianlyng/Firefox-Micro/blob/main/preview.png?raw=true)
 
 
