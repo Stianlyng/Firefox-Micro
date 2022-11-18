@@ -1,5 +1,6 @@
 # Firefox-Micro
 The most minimal Firefox experience possible. 
+
 ![](https://github.com/Stianlyng/Firefox-Micro/blob/main/preview.png?raw=true)
 
 
