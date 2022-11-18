@@ -1,0 +1,88 @@
+
+
+:root[titlepreface=""] #navigator-toolbox{
+  visibility: collapse !important;
+}
+
+/*---+---+---+---+---+---+---+
+ |             HIDE           |
+ +---+---+---+---+---+---+---*/
+
+/* remove window control buttons */
+.titlebar-buttonbox-container { display: none !important; }
+
+#home-button              {display: none !important;}
+#forward-button           {display: none !important;}
+#back-button              {display: none !important;}
+#PanelUI-menu-button      {display: none !important;}
+#urlbar-zoom-button       {display: none !important;}
+#tabs-newtab-button       {display: none !important;}
+#alltabs-button           {display: none !important;}
+#new-tab-button           {display: none !important;}
+#nav-bar-overflow-button  {display: none !important;}
+
+/* Changes the layout properties to flex, and removes bottom border */
+#navigator-toolbox { 
+  display: flex; 
+  flex-wrap: wrap; 
+  border: none !important;}
+
+:root {
+  /*  Width of the URL Bar for the Oneline layout
+   *  If enabled the max-width is applied on focus
+   *  otherwise the URL Bar will always be it's min-width
+   */ --uc-urlbar-width: 35px;
+
+}
+
+/* main nav with url bar hidden behind tab bar. The overflow url shows up is search icon or cmd + L is pressed */
+#nav-bar {
+  order: 0;
+  width: var(--uc-urlbar-width);
+  background-color: var(--lwt-accent-color) !important;
+
+}
+/* Actually the tab bar */
+#titlebar {
+  order: 1;
+  width: calc(100vw - var(--uc-urlbar-width) - 1px);
+}
+
+/* Bookmark / extensions toolbar */
+#PersonalToolbar {
+  order: 2;
+  width: 100%;
+  background-color: var(--lwt-accent-color) !important;
+}
+
+/* Sets the size of the url/search promt to 80% of window */
+#navigator-toolbox:focus-within #urlbar { 
+  width: 80vw !important; 
+}
+
+ /* Sets the background of url input to the same as tab bar */
+#urlbar-background,
+#searchbar {
+  background-color: var(--lwt-accent-color) !important;
+  background-clip: border-box;
+  border: none !important;
+  border-radius: none !important;
+  box-shadow: none !important;
+}
+
+
+/* Removes border from urlbar when opening new tab */
+#urlbar[focused="true"]:not([suppress-focus-border]) > #urlbar-background,
+#searchbar:focus-within {
+  outline: none !important;
+}
+
+/* Removes the left and right spaces in tab bar */
+.titlebar-spacer{
+  display: none !important; 
+}
+
+/* fixes the customize window sizing */
+#customization-panel-container {
+  flex: auto !important;
+}
