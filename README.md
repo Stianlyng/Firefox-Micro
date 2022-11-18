@@ -1,5 +1,8 @@
 # Firefox-Micro
-The most minimal Firefox experience possible. 
+
+The most minimal and decluttering Firefox experience possible. 
+
+Made with as few lines of css as possible, with a goal of staying futureproof.
 
 ![](https://github.com/Stianlyng/Firefox-Micro/blob/main/preview.png?raw=true)
 
