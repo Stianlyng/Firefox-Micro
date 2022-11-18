@@ -1,8 +1,14 @@
 
 
-:root[titlepreface=""] #navigator-toolbox{
+:root[titlepreface=""] #titlebar {
   visibility: collapse !important;
 }
+
+:root[titlepreface=""] #nav-bar {
+  position: absolute !important;
+  
+}
+
 
 /*---+---+---+---+---+---+---+
  |             HIDE           |
