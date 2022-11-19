@@ -2,7 +2,7 @@
 
 The most minimal and decluttering Firefox experience possible. 
 
-Made with as few lines of css as possible, with a goal of staying futureproof.
+Made with as few lines of css in the userChrome stylesheet as possible, with a goal of staying futureproof.
 
 ![](https://github.com/Stianlyng/Firefox-Micro/blob/main/preview.png?raw=true)
 
