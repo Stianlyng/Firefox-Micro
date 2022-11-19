@@ -5,7 +5,7 @@
 #### Made with as few lines of css in the userChrome stylesheet as possible, with a goal of staying futureproof.
 
 - toggle to hide the entire navbar for zen mode
-- work on per window basis, perfect for reading code, watching videos or webapps.
+- works on a per window basis, perfect for reading code, watching videos or webapps.
 
 ![](https://github.com/Stianlyng/Firefox-Micro/blob/main/preview.png?raw=true)
 
