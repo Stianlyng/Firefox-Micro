@@ -27,6 +27,19 @@
 #new-tab-button           {display: none !important;}
 #nav-bar-overflow-button  {display: none !important;}
 
+/* toggle some items for config... get regular view */
+:root[titlepreface="regular"] #home-button              {display: block !important;}
+:root[titlepreface="regular"] #forward-button           {display: block !important;}
+:root[titlepreface="regular"] #back-button              {display: block !important;}
+:root[titlepreface="regular"] #PanelUI-menu-button      {display: block !important;}
+:root[titlepreface="regular"] #urlbar-zoom-button       {display: block !important;}
+:root[titlepreface="regular"] #tabs-newtab-button       {display: block !important;}
+:root[titlepreface="regular"] #alltabs-button           {display: block !important;}
+:root[titlepreface="regular"] #new-tab-button           {display: block !important;}
+:root[titlepreface="regular"] #nav-bar-overflow-button  {display: block !important;}
+:root[titlepreface="regular"] #nav-bar {width: 100vw;}
+:root[titlepreface="regular"] #titlebar {width: 100vw;}
+
 /* Changes the layout properties to flex, and removes bottom border */
 #navigator-toolbox { 
   display: flex; 
@@ -41,6 +54,9 @@
 
 }
 
+
+
+/*   toolbarbutton-1 unified-extensions-item-action subviewbutton panel-no-padding webextension-browser-action*/
 /* main nav with url bar hidden behind tab bar. The overflow url shows up is search icon or cmd + L is pressed */
 #nav-bar {
   order: 0;
@@ -59,6 +75,7 @@
   order: 2;
   width: 100%;
   background-color: var(--lwt-accent-color) !important;
+  z-index: 1 !important;
 }
 
 /* Sets the size of the url/search promt to 80% of window */

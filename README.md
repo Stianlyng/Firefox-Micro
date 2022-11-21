@@ -23,7 +23,7 @@
 
     - toolkit.legacyUserProfileCustomizations.stylesheets
 
-3. Go to your Firefox profile(Easier, go to: about:profile in urlbar, and click open root folder on the top of the page):
+3. Go to your Firefox profile(about:profile in urlbar, and click open root folder on the top of the page):
     - If you're on Linux: `$HOME/.mozilla/firefox/XXXXXXX.default-release/`
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
     - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX` 
@@ -35,8 +35,12 @@
 **If you want to toggle the url/tab-bar download the plugin Userchrome Toggle by: [Joolee](https://github.com/Joolee)**
 - https://github.com/Joolee/userchrome-toggle
   - Remember to have "prefix" empty, and then choose your preferred hotkey
-- The bookmarks toolbar can be toggled with: Ctrl + Shift + B
+- If you would like to toggle a so that all toolbars have everything visible(for getting addons that might get placed in the wrong place). 
+  - Add "regular" to the style toggle 2 prefix
+- The bookmarks toolbar can be toggled with: Ctrl + Shift + B (native firefox hotkey)
 
+#### Example toggler:
+![](https://github.com/Stianlyng/Firefox-Micro/blob/main/toggle.png)
 
 
 
